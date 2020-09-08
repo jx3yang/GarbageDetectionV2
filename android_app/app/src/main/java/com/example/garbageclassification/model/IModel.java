@@ -1,5 +1,8 @@
 package com.example.garbageclassification.model;
 
+import android.graphics.Bitmap;
+
 public interface IModel {
-    public int predict();
+    String predict(final Bitmap bitmap);
+    void close();
 }

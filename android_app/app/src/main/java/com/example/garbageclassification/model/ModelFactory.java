@@ -1,7 +1,11 @@
 package com.example.garbageclassification.model;
 
+import android.app.Activity;
+
+import java.io.IOException;
+
 public class ModelFactory {
-    public IModel createModel(ModelType modelType) {
-        return new TfModel();
+    public static IModel createModel(Activity activity) throws IOException {
+        return new TfModel(activity, 1);
     }
 }
