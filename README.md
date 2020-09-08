@@ -21,4 +21,4 @@ in the second case, it predicts the item to be of category "plastic" with 99.9% 
 
 In both cases, the highest probability corresponds to the true category. We note however that 
 the model has been trained on images that have pretty good lighting, meaning that a good 
-accuracy is only expected when the lighting is relatively good.
+accuracy is only expected on relatively well-lit pictures.
